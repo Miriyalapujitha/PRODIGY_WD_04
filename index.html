@@ -1,27 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Stopwatch</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Stopwatch</h1>
-        <div id="time">
-            <span class="digit" id="hr">00</span>
-            <span class="txt">Hr</span>
-            <span class="digit" id="min">00</span>
-            <span class="txt">Min</span>
-            <span class="digit" id="sec">00</span>
-            <span class="txt">Sec</span>
-            <span class="digit" id="count">00</span>
-        </div>
-        <div id="buttons">
-            <button class="btn" id="start">Start</button>
-            <button class="btn" id="stop">Stop</button>
-            <button class="btn" id="reset">Reset</button>
-        </div>
-    </div>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h1>Welcome to My Portfolio</h1>
+        <img src="professional_photo.jpg" alt="Professional Photo">
+        <p>As a skilled web developer, I specialize in building responsive, user-friendly websites and applications using HTML, CSS, JavaScript, and various frameworks. With a strong foundation in computer science and a passion for innovation, I deliver high-quality solutions that meet and exceed client expectations.</p>
+        <button>Explore my projects and learn more about my skills and experience.</button>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I'm Mr.Introvert, a dedicated and passionate web developer with a strong passion for building innovative and user-friendly digital experiences. With a background in computer science and a keen eye for detail, I've developed a solid understanding of web development principles and best practices.</p>
+        <h3>Education</h3>
+        <ul>
+            <li>Bachelor's Degree in Computer Science, [University Name]</li>
+            <li>Certified Web Developer, [Certification Name]</li>
+        </ul>
+        <h3>Professional Experience</h3>
+        <ul>
+            <li>Web Developer, [Company Name] (20XX-20XX)</li>
+            <li>Freelance Web Developer (20XX-present)</li>
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li>
+                <img src="project1_thumbnail.jpg" alt="Project 1 Thumbnail">
+                <h3>Project 1: [Project Name]</h3>
+                <p>Brief description of Project 1.</p>
+            </li>
+            <li>
+                <img src="project2_thumbnail.jpg" alt="Project 2 Thumbnail">
+                <h3>Project 2: [Project Name]</h3>
+                <p>Brief description of Project 2.</p>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML/CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Node.js</li>
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Get in Touch</h2>
+        <p>Feel free to reach out to me for any inquiries or project collaborations.</p>
+        <ul>
+            <li><a href="mailto:[your_email]">coding99392@gmail.com</a></li>
+            <li><a href="https://www.linkedin.com/in/[your_linkedin_profile]">LinkedIn</a></li>
+        </ul>
+    </section>
+
     <script src="script.js"></script>
 </body>
 </html>
